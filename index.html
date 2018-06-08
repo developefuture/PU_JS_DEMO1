@@ -6,14 +6,23 @@
 			body{
 				background-color:green;
 			}
+			#box{
+				margin: auto;
+				text-align:center;
+				width: 50%;
+				border: 1px solid black;
+				background-color: white;
+			}
 		</style>
 	</head>
-	<body style="text-align:center;">
+	<body>
+		<div id="box">
 		<h1>This is a picture</h1>
 		<img id="pic1" src="Images/Koala.jpg" width="500px" height="250px" />
 		<br/>
 		<button onclick="document.getElementById('pic1').src='Images/koala2.jpg'">See the other Koala</button>
 		<button onclick="document.getElementById('pic1').src='Images/Koala.jpg'">See the other Koala 2</button>
+		</div>
 		<footer>
 			BG Team
 		</footer>
